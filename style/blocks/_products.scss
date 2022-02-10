@@ -1,0 +1,152 @@
+.top-product {
+  display: flex;
+  background-color: #f7f7f7;
+  height: 776px;
+}
+
+.top-btn,
+.btn-top {
+  height: 47px;
+  width: 47px;
+  margin-top: 315px;
+  margin-bottom: 315px;
+  background: rgba(42, 42, 42, 0.15);
+  border: 1px solid rgba(42, 42, 42, 0.15);
+  padding-top: 12px;
+  padding-right: 17px;
+  padding-left: 17px;
+  padding-bottom: 12px;
+  transition-duration: 0.4s;
+
+  &:hover {
+    transform: rotateY(360deg);
+  }
+}
+
+.top-women-catalog {
+  display: flex;
+  justify-content: center;
+  padding-top: 11px;
+  padding-bottom: 42px;
+}
+
+.btn-top:hover .btn-color {
+  fill: $main-color;
+}
+
+.info-product {
+  position: relative;
+  margin-top: -69px;
+}
+
+.info-price {
+  background: #ffffff;
+}
+
+.header-info {
+  list-style: none;
+  padding-top: 64px;
+  text-align: center;
+}
+
+.item-top--pink {
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: $main-color;
+}
+
+.item--top-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4d4d4d;
+  padding-bottom: 48px;
+  padding-top: 12px;
+}
+
+.item-top--description {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5e5e5e;
+  width: 555px;
+}
+
+.item-top--product {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.big-top-price {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ef5b70;
+  padding-top: 32px;
+}
+
+.top-wbr {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.products--item-catalog {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.top--catalog-product .fa-angle-down {
+  padding-left: 9px;
+  padding-right: 22px;
+}
+
+.top--catalog-product {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6f6e6e;
+}
+
+.top-btn-basket {
+  display: flex;
+  justify-content: center;
+  padding-top: 48px;
+}
+
+.basket-btn {
+  background-color: #fff;
+  display: flex;
+  /*text-decoration: none;*/
+  border: 1px solid #ff6a6a;
+  padding-top: 14px;
+  padding-right: 56px;
+  padding-bottom: 13px;
+  font-weight: normal;
+  font-size: $paragraf-size;
+  line-height: 19px;
+  color: #f26376;
+  cursor: pointer;
+  transition-duration: 0.4s;
+
+  &:hover {
+    border: 1px solid pink;
+    transform: rotateY(360deg);
+  }
+}
+
+.basket-btn .item-basket {
+  margin-left: 22px;
+  margin-right: 22px;
+}
+
+.top--product {
+  list-style: none;
+  display: flex;
+  padding-top: 132px;
+  padding-bottom: 128px;
+  gap: 30px;
+}

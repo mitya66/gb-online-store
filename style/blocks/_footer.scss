@@ -1,0 +1,48 @@
+.footer {
+  background: $text-color;
+}
+
+.footer-text {
+  font-size: $paragraf-size;
+  line-height: 19px;
+  color: #fbfbfb;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.top-social {
+  display: flex;
+  list-style-type: none;
+  padding-top: 24px;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-insta {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.social-pinte {
+  padding-right: 7px;
+}
+
+.social--network {
+  background-color: #ffffff;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+  transition-duration: 0.4s;
+}
+
+.social--network:hover {
+  fill: #ffffff;
+  background-color: $main-color;
+}

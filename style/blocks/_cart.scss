@@ -1,0 +1,225 @@
+.cart_top {
+  display: flex;
+  justify-content: space-between;
+}
+.cart_men {
+  display: flex;
+  list-style: none;
+  width: 652px;
+  box-shadow: 13px 20px 20px 2px rgba(0, 0, 0, 0.15);
+  margin-top: 96px;
+  margin-bottom: 40px;
+}
+.header__cart {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #222222;
+  padding-top: 22px;
+  padding-left: 31px;
+  width: 262px;
+  padding-bottom: 42px;
+}
+.cart__top-text {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.cart_men_two {
+  display: flex;
+  list-style: none;
+  width: 652px;
+  box-shadow: 13px 20px 20px 2px rgba(0, 0, 0, 0.15);
+}
+.top_cart-info {
+  display: flex;
+}
+
+.img_cart-men {
+  width: 262px;
+}
+.top_text_cart {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #575757;
+  padding-left: 31px;
+}
+.cart__top {
+  width: 43px;
+  text-align: center;
+  margin-left: 24px;
+  height: 24px;
+  border: 1px solid #eaeaea;
+}
+.close__cart {
+  margin-left: 57px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  height: 18px;
+  margin-top: 28px;
+}
+.button__close-cart {
+  fill: #575757;
+}
+.close__cart:hover .button__close-cart {
+  fill: #f16d7f;
+}
+.color_cart_price {
+  color: #ef5b70;
+}
+.cart_quantity {
+  border: 1px solid #eaeaea;
+  font-size: 18px;
+  line-height: 22px;
+  color: #656565;
+  padding: 1px 17px 1px 16px;
+}
+.top__box_cart {
+  display: flex;
+}
+.cart-btn {
+  display: flex;
+  padding-top: 72px;
+  padding-bottom: 128px;
+}
+.cart_btn:hover,
+.cart_btn_shopping:hover {
+  color: $main-color;
+  opacity: 0.6;
+  background-color: #f5f3f3;
+}
+.cart_btn_shopping {
+  text-decoration: none;
+  margin-left: 192px;
+}
+.cart_btn,
+.cart_btn_shopping {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  border: 1px solid #a4a4a4;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 40px;
+  padding-left: 38px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.shopping-cart__adress-legend {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+  padding-top: 113px;
+}
+.shopping-cart__adress-box {
+  margin-left: 128px;
+}
+.shopping-cart__adress-form {
+  width: 358px;
+  border: 1px solid #a4a4a4;
+  padding: 13px 17px 16px 17px;
+}
+.shopping-cart__form-button {
+  border: 1px solid #a4a4a4;
+  width: 100px;
+  border: 1px solid #a4a4a4;
+  width: 100px;
+  background: transparent;
+  text-align: center;
+  height: 34px;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #4a4a4a;
+  margin-bottom: 57px;
+  cursor: pointer;
+}
+
+.shopping-cart {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #b1b1b1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.delivery_adress {
+  border: none;
+}
+.adress-form,
+.shopping_index {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #222222;
+}
+
+.adress-form {
+  margin-bottom: 20px;
+}
+
+.shopping_index {
+  margin-bottom: 23px;
+}
+
+.shopping-cart__order-hr {
+  fill: #e2e2e2;
+}
+
+.shopping-cart__order {
+  background-color: #f5f3f3;
+  text-align: center;
+}
+
+.shopping-cart__order-text-top {
+  font-weight: normal;
+  text-align: end;
+  font-size: 11px;
+  line-height: 13px;
+  color: #4a4a4a;
+  padding-top: 39px;
+  padding-bottom: 12px;
+}
+.shopping-cart__order-span {
+  padding-left: 23px;
+  padding-right: 34px;
+}
+
+.shopping-cart__order-text {
+  text-align: end;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+}
+.shopping-cart__order-text-span {
+  padding-left: 23px;
+  padding-right: 37px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f16d7f;
+}
+.shopping-cart__order-button {
+  height: 50px;
+  width: 273px;
+  margin-top: 17px;
+  background-color: #f16d7f;
+  border: none;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-bottom: 58px;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}

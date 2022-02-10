@@ -1,0 +1,46 @@
+.offer {
+  background-color: #f1e4e6;
+  height: 764px;
+}
+
+.offer-catalog {
+  height: 148px;
+  background-color: #f1e4e6;
+}
+
+.catalog-wrap {
+  height: 147px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.offer-wrap {
+  height: 765px;
+  background-image: url(../img/men-header.png);
+  background-repeat: no-repeat;
+  display: flex;
+  background-size: contain;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.offer-title {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 40px;
+  color: $text-color;
+  border-left: 12px solid $main-color;
+  padding-left: $paragraf-size;
+  margin-right: 90px;
+}
+
+.offer-title--small {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  color: $text-color;
+}
+
+.offer-title-pink {
+  color: $main-color;
+}

@@ -1,0 +1,45 @@
+.advantages {
+  background: $text-color;
+}
+
+.advantages-wrap {
+  height: 342px;
+}
+
+.advantages--wrap {
+  display: flex;
+  text-align: center;
+  padding-top: 103px;
+  list-style-type: none;
+}
+
+.text-delivery,
+.text-sales,
+.text-vip {
+  font-weight: normal;
+  font-size: 19.96px;
+  line-height: $paragraf-size + 8;
+  color: #fbfbfb;
+}
+
+.text-delivery {
+  padding-top: 28px;
+  padding-bottom: $paragraf-size;
+}
+
+.text-sales {
+  padding-top: 19px;
+  padding-bottom: $paragraf-size;
+}
+
+.text-vip {
+  padding-top: 25px;
+  padding-bottom: $paragraf-size;
+}
+
+.top-text-benefits {
+  font-weight: 300;
+  font-size: 13.972px;
+  line-height: $paragraf-size + 1;
+  color: #fbfbfb;
+}

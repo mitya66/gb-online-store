@@ -1,0 +1,255 @@
+.catalog-text {
+  padding-top: 59px;
+  padding-bottom: 60px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #f16d7f;
+}
+
+.breadcrumbs {
+  padding-top: 65px;
+  padding-bottom: 66px;
+}
+
+.breadcrumbs-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.breadcrumbs-item::before {
+  content: "/";
+  margin-right: 10px;
+}
+
+.breadcrumbs-item:first-child::before {
+  display: none;
+}
+
+.breadcrumbs-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #636363;
+  transition-duration: 0.4s;
+}
+
+.breadcrumbs-link--current {
+  font-weight: bold;
+  color: $main-color;
+}
+
+.breadcrumbs-link[href]:hover {
+  text-decoration: underline;
+  color: $main-color;
+}
+
+.heading-catalog {
+  display: flex;
+  padding-bottom: 64px;
+  padding-top: 51px;
+}
+
+.catalog {
+  display: flex;
+  list-style: none;
+  gap: 28px;
+}
+
+.catalog--item {
+  margin-left: 30px;
+  position: relative;
+}
+
+.top-catalog:hover .fa-angle-down {
+  color: $main-color;
+  transition-duration: 0.4s;
+}
+
+.top-catalog {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6f6e6e;
+
+  &:hover {
+    color: $main-color;
+    transition-duration: 0.4s;
+  }
+}
+
+.size-name {
+  position: absolute;
+  background: #ffffff;
+  transition: ease-out;
+  width: 79px;
+  display: flex;
+  //display: none;
+  align-items: center;
+  transition-timing-function: linear;
+  transform-origin: left top;
+  transition-duration: 0.4s;
+  transform: scale(0);
+  z-index: 1;
+}
+
+.item--catalog:hover .size-name {
+  transform: scale(1);
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  //display: flex;
+}
+
+.top--size {
+  list-style: none;
+  margin-top: 7px;
+}
+
+.top-box-size {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #6f6e6e;
+  margin-left: 9px;
+}
+
+.size-text {
+  padding-bottom: 6px;
+}
+
+.top-catalog .fa-angle-down {
+  padding-left: 10px;
+  color: #6f6e6e;
+}
+
+.top-text--catalog {
+  padding-left: 11px;
+}
+
+.item-text--catalog {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.item-filter-top {
+  width: 360px;
+  position: relative;
+}
+
+.top--fil {
+  margin-left: 17px;
+}
+
+.header-filter {
+  list-style: none;
+  margin-top: 24px;
+  margin-left: 34px;
+}
+
+.header-text-filter {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6f6e6e;
+}
+
+::-webkit-details-marker {
+  display: none;
+}
+
+.filter-text--top {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6f6e6e;
+  width: 327px;
+  cursor: pointer;
+  display: block;
+  border-left: 10px solid #ef5b70;
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 11px;
+  padding-top: 16px;
+  padding-left: 11px;
+  outline: none;
+
+  &:hover {
+    color: #ef5b70;
+  }
+}
+
+.top--filter {
+  display: inline-block;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  background-color: #ffffff;
+  transform: scale(0);
+  width: 360px;
+  //display: none;
+  position: absolute;
+  z-index: 1;
+  transition-timing-function: linear;
+  transform-origin: left top;
+  transition-duration: 0.4s;
+}
+
+.item-filter-top:hover .top--filter {
+  transform: scale(1);
+}
+
+.header-filter-text:hover .header-text-filter {
+  color: #ef5b70;
+  transition-duration: 0.4s;
+}
+
+.header-filter-text {
+  padding-bottom: 11px;
+}
+
+.pages-top {
+  padding: 48px 442px 96px 414px;
+}
+
+.pages {
+  align-items: center;
+  list-style: none;
+  display: flex;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  height: 44px;
+}
+
+.top-pages {
+  font-weight: 300;
+  font-size: $paragraf-size;
+  line-height: 19px;
+}
+
+.pages--top {
+  padding-right: 20px;
+}
+
+a.link-pages {
+  color: #c4c4c4;
+}
+
+.link-pages {
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+.top-pages .link-pages:hover {
+  color: $main-color;
+}
+
+.previous {
+  padding-left: $paragraf-size + 1;
+  padding-right: $paragraf-size + 4;
+}
+
+.next {
+  padding-right: 17px;
+}

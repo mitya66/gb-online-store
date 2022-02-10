@@ -1,0 +1,137 @@
+.reg-catalog-text {
+  padding-top: $paragraf-size * 4 - 5;
+  padding-bottom: 60px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: $main-color;
+}
+
+.name-regist {
+  font-weight: 300;
+  font-size: $paragraf-size;
+  line-height: 19px;
+  color: $text-color;
+  padding-top: 64px;
+  padding-bottom: 20px;
+}
+
+.form-registration {
+  display: flex;
+}
+
+.regform-regist {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: $paragraf-size;
+  color: #b1b1b1;
+  width: 360px;
+  height: 47px;
+  padding-left: 17px;
+  padding-top: 13px;
+  padding-bottom: $paragraf-size;
+  padding-right: $paragraf-size;
+}
+
+.regist-reg {
+  margin-bottom: 20px;
+}
+
+.form-radio {
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}
+
+.top-radio {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.radio--form {
+  padding-left: 10px;
+}
+
+.regist--form,
+.txt-regist {
+  margin-bottom: 20px;
+}
+
+.txt-regist {
+  font-weight: 300;
+  font-size: $paragraf-size;
+  line-height: 19px;
+  color: $text-color;
+  padding-top: 34px;
+}
+
+.text-regist {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: $paragraf-size;
+  color: #b1b1b1;
+  width: 359px;
+  padding-top: 15px;
+  padding-bottom: 39px;
+}
+
+.regist-btn {
+  padding-top: $paragraf-size;
+  padding-bottom: 17px;
+  padding-left: 29px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  background-color: $main-color;
+  border: 1px solid $main-color;
+  margin-bottom: 96px;
+  transition-duration: 0.4s;
+  transition-property: all;
+  transition-timing-function: linear;
+  transition-delay: 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    border: 1px solid black;
+    transform: translateX(75px);
+  }
+}
+
+.benefits {
+  margin-left: 128px;
+  margin-top: 64px;
+}
+
+.bonus-reg--text::before {
+  content: "✓";
+  margin-right: 23px;
+  font-size: 36px;
+}
+
+.regist-icon {
+  padding: 20px;
+}
+
+.benefits-regist {
+  list-style: none;
+}
+
+.top--text-reg {
+  padding-top: 22px;
+  padding-bottom: 21px;
+}
+
+.reg-top-icon {
+  padding-bottom: $paragraf-size;
+}
+
+.text-reg,
+.top--text-reg,
+.bonus-reg--text {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}

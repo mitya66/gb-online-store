@@ -1,0 +1,218 @@
+@media (max-width: 1024px) {
+  .wrapper {
+    width: 736px;
+  /* outline: 1px solid green;*/
+    outline: none;
+  }
+
+  .boom_menu {
+    margin-left: -37px;
+  }
+  .offer {
+    height: 367px;
+  }
+
+  .offer-wrap {
+    background-size: 184px;
+    background-image: url(../img/tablet-offer-men.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    height: 367px;
+  }
+  .offer-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 53px;
+    color: #222222;
+  }
+  .offer-title--small {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+  }
+  .offer-title-pink {
+    font-size: 24px;
+    line-height: 29px;
+    color: #f16d7f;
+  }
+  .categories-wrap {
+    gap: 19px;
+  }
+  .categories {
+    padding-top: 19px;
+    padding-bottom: 0;
+  }
+  .categories-item--accesories {
+    margin-top: 19px;
+  }
+
+  .products-list {
+    gap: 16px;
+  }
+  .feature-text {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: $paragraf-size * 2 + 4;
+    color: $text-color;
+    text-align: center;
+    margin-top: 154px;
+    text-align: center;
+  }
+
+  .card-box {
+    margin: 0;
+  }
+  .advantages-wrap {
+    min-height: 610px;
+  }
+
+  .advantages--wrap {
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 43px;
+    margin-left: 204px;
+  }
+  .sales {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .advn--sales {
+    padding-bottom: 64px;
+  }
+  .feedback {
+    background-image: url(../img/surfer-tablet.png);
+    height: 693px;
+  }
+  .feedback--wrap {
+    flex-wrap: wrap;
+  }
+  .foto-feedback {
+    margin-top: 64px;
+    margin-left: 204px;
+  }
+  .text-feedback {
+    padding-top: 37px;
+  }
+  .email {
+    margin-top: 48px;
+    margin-left: 105px;
+  }
+  .text-subscribe {
+    font-size: 24px;
+    line-height: 162%;
+    text-align: center;
+    padding-bottom: 27px;
+  }
+  .text-subscribe {
+    font-size: 18px;
+    line-height: 167.2%;
+  }
+
+  .name-regist {
+    padding-top: 40px;
+  }
+  .text-reg,
+  .top--text-reg,
+  .bonus-reg--text {
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+  }
+  .benefits {
+    margin-left: 22px;
+    margin-top: 40px;
+  }
+
+  .item-text--catalog {
+    padding: 0;
+  }
+  .heading-catalog {
+    justify-content: space-between;
+  }
+  .top--filter {
+    margin-left: 0;
+  }
+  .catalog--item {
+    margin: 0;
+  }
+  .catalog {
+    gap: 28px;
+  }
+  .none--box {
+    display: none;
+  }
+  .pages-top {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    padding-top: 40px;
+    padding-bottom: 63px;
+  }
+
+  .top-product {
+    height: 624px;
+  }
+  .top-women-catalog {
+    padding-top: 58px;
+    padding-bottom: 72px;
+  }
+  .women--catalog {
+    width: 234px;
+    height: 495px;
+  }
+  .top-btn-basket {
+    padding-bottom: 65px;
+  }
+  .info-product {
+    margin: 0;
+  }
+  .top--product {
+    flex-direction: row-reverse;
+    display: flex;
+    gap: 16px;
+    padding-top: 129px;
+    padding-bottom: 129px;
+  }
+  .women-none {
+    display: none;
+  }
+  .top__box_cart {
+    display: block;
+  }
+  .cart_men {
+    width: 734px;
+    margin-top: 59px;
+  }
+  .cart_men_two {
+    width: 734px;
+  }
+  .cart-btn {
+    padding-bottom: 0;
+    justify-content: space-around;
+    padding-top: 62px;
+  }
+  .cart_btn_shopping {
+    margin: 0;
+  }
+  .shopping-cart__adress-legend {
+    padding-top: 64px;
+  }
+  .shopping-cart__adress-box {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .shopping-cart__order {
+    height: 214px;
+    width: 360px;
+    margin-top: 103px;
+    margin-bottom: 147px;
+    margin-left: 15px;
+  }
+  .shopping-cart__form-button {
+    margin-bottom: 128px;
+  }
+}
